@@ -1,2 +1,238 @@
 ciao
 yokoso
+ciao
+Luca: ciao
+yokoso
+yokoso
+Luca: ciao
+Luca: come
+Luca: stai
+Luca: messaggio corposo
+Luca: la porta dovresti chiederla
+Luca: l'IP nel server è fisso
+ciao
+quanti vbucks hai comprato per il nuovo pass?
+Luca: 0
+Luca: te?
+500000
+Luca: brau ti
+Luca: quanti soldi?
+Luca: immagino 92386982346598234659
+che ne pensi del nuovo pass?
+Luca: non l'ho ancora visto
+fa cagare
+Luca: ah ok
+Luca: io ero livello 144 su quello vecchio
+Ah
+Luca: come i pixel della mia grafica
+Io tipo 132
+Luca: ah ok
+Luca: ci sta
+Un mio amico era 180+
+Luca: onesto
+carig: ciao gay
+oi Carig
+
+Luca: wut
+Luca: buonasera
+Altro che whatsapp
+carig: easy qua copiamo duro
+Luca: ahi voglia
+Luca: addirittura
+Te hai visto il nuovo pass Carig?
+carig: pass di cosa
+Fortnite
+carig: chi lo caga fortnite ormai
+Luca: fortnite battle pass
+I just shit out of my ass
+Luca: æ
+ciao a tutt*
+oi
+yokoso watashi no soul society
+Ambro: OK
+o
+Luca Ambrogio: ci sono
+Luca Ambrogio: esisto
+Ma come hai fatto a cambiare nome
+
+Luca Ambrogio: come le bombe in palestina
+Luca Ambrogio: 
+Luca Ambrogio: msg = name + ": " + msg
+Dovrebbero buttarne di piu
+Luca Ambrogio: dove name è il nome
+Luca Ambrogio: pregg
+Legalize Nuclear Bombs
+Luca Ambrogio: esatto
+basta
+soshite ima sono kami wa ambrogio luca
+Luca ambrogio: ciao
+Luca ambrogio: come
+Luca ambrogio: state
+Meglio se al governo salisse quel frutto
+Luca ambrogio: frutto?
+Luca ambrogio: salvini?
+Luca ambrogio: meloni?
+Luca ambrogio: la meloni?
+Luca ambrogio: forza berlusca
+Popo la meloni
+Luca ambrogio: meloni e anguria
+esattaamenti
+ciao
+ciao
+Luca ambrogio: ciao
+Luca ambrogio: ki ses
+Luca ambrogio: spillette delle SS
+Luca ambrogio: ci stanno
+Fascista nonchè nazzista!
+Luca ambrogio: matrimonio a casa pound
+Matrimonio naturale >>>
+Luca ambrogio: cucchi comunica
+c
+Cosa ne pensate della sinistra italiana?
+Luca ambrogio: che schifo
+esattament
+Luca ambrogio: la sinistra italiana
+un mmee
+meme
+Luca ambrogio: che schifo
+M&M
+LucaAmbrogio: import java.io.*;
+LucaAmbrogio: import java.util.Vector;
+LucaAmbrogio: 
+LucaAmbrogio: 
+LucaAmbrogio: public class main {
+LucaAmbrogio: 
+LucaAmbrogio:     public static void main(String[] args) throws IOException{
+LucaAmbrogio: 
+LucaAmbrogio:         String nomeFile = "C:/Users/Luca Ambrogio/IdeaProjects/spotify/src/ProgettazioneSpotify.csv";
+LucaAmbrogio: 
+LucaAmbrogio:         Vector<spotify> canzoni;
+LucaAmbrogio:         canzoni = new Vector<spotify>();
+LucaAmbrogio: 
+LucaAmbrogio:         File f = new File(nomeFile);
+LucaAmbrogio:         FileReader fr = new FileReader(nomeFile);
+LucaAmbrogio: 
+LucaAmbrogio:         BufferedReader br = new BufferedReader(fr);
+LucaAmbrogio:         String s = "";
+LucaAmbrogio:         String currentLine = "";
+LucaAmbrogio: 
+LucaAmbrogio:         s = br.readLine();
+LucaAmbrogio:         int count = 0;
+LucaAmbrogio: 
+LucaAmbrogio:         while (s != null) {
+LucaAmbrogio:             if(count>0) {
+LucaAmbrogio:                 String[] riga = s.split(";");
+LucaAmbrogio:                 for (int i = 0; i < riga.length; i++) {
+LucaAmbrogio:                     System.out.print(riga[i] + " ");
+LucaAmbrogio:                 }
+LucaAmbrogio:             }
+LucaAmbrogio:             s = br.readLine();
+LucaAmbrogio:             count++;
+LucaAmbrogio:             System.out.println("\n");
+LucaAmbrogio:         }
+LucaAmbrogio: 
+LucaAmbrogio:         br.close();
+LucaAmbrogio: 
+LucaAmbrogio:     }
+LucaAmbrogio: }
+LucaAmbrogio: 
+import java.io.*;
+import java.util.Vector;
+
+
+public class main {
+
+    public static void main(String[] args) throws IOException{
+
+        String nomeFile = "C:/Users/Luca Ambrogio/IdeaProjects/spotify/src/ProgettazioneSpotify.csv";
+
+        Vector<spotify> canzoni;
+        canzoni = new Vector<spotify>();
+
+        File f = new File(nomeFile);
+        FileReader fr = new FileReader(nomeFile);
+
+        BufferedReader br = new BufferedReader(fr);
+        String s = "";
+        String currentLine = "";
+
+        s = br.readLine();
+        int count = 0;
+
+        while (s != null) {
+            if(count>0) {
+                String[] riga = s.split(";");
+                for (int i = 0; i < riga.length; i++) {
+                    System.out.print(riga[i] + " ");
+                }
+            }
+            s = br.readLine();
+            count++;
+            System.out.println("\n");
+        }
+
+        br.close();
+
+    }
+}
+import java.io.*;
+import java.util.Vector;
+import java.io.FileWriter;
+
+public class spotify{
+        public Vector<canzone> canzoni;
+
+    public spotify(){
+        canzoni = new Vector<canzone>();
+    }
+
+    public int leggiCanzoniDaFile() throws IOException {
+
+        String nomeFile = "C:/Users/Luca Ambrogio/IdeaProjects/spotify/src/ProgettazioneSpotify.csv";
+
+        File f = new File(nomeFile);
+        FileReader fr = new FileReader(nomeFile);
+
+        BufferedReader br = new BufferedReader(fr);
+        String s = "";
+        String currentLine = "";
+
+        s = br.readLine();
+        int count = 0;
+        while (s != null) {
+            if(count>0) {
+                String[] riga = s.split(";");
+                for (int i = 0; i < riga.length; i++) {
+                }
+            }
+            s = br.readLine();
+            count++;
+            System.out.println("\n");
+        }
+
+        br.close();
+        return 1;
+    }
+
+    public void salvaCanzoniSuFile(canzone canzone) throws IOException{
+        String nomeFile = "C:/Users/Luca Ambrogio/IdeaProjects/spotify/src/ProgettazioneSpotify.csv";
+
+        File f = new File(nomeFile);
+
+        FileWriter fw = new FileWriter(nomeFile);
+        BufferedWriter bw = new BufferedWriter(fw);
+
+    }
+
+    public void aggiungiCanzone(){
+        canzone song;
+
+
+    }
+serve altro?
+oh
+serve altro?
+song = new canzone();
+in aggiungi canzone
+non mi è arrivato
+Scanner a = new Scanner(System.in);
