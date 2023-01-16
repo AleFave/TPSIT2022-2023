@@ -1,0 +1,2 @@
+Un programma è il codice che andiamo a scrivere e che compiliamo, quando si esegue un programma parte un processo (programma statico, processo dinamico). Quando parte un processo parte
+anche un thread. 
